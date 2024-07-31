@@ -91,6 +91,7 @@ nav {
   position: absolute;
   visibility: hidden;
   opacity: 0;
+  transition: 0.7s;
   /* top:55px; */
   z-index: 10;
 }
@@ -111,4 +112,63 @@ nav {
 .menu li:hover .sub_menu {
   visibility: visible;
   opacity: 1;
+}
+section {
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 562px;
+  z-index: 0;
+}
+.banner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.content {
+  width: 40%;
+}
+.content h4 {
+  font-family: var(--ubuntu);
+  font-size: 50px;
+  font-weight: 400;
+  color: #0f2f44;
+}
+.content h1 {
+  font-family: var(--abril);
+  font-size: 80px;
+  color: #0f2f44;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.content h5 {
+  color: #8484bf;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-family: var(--ubuntu);
+  margin: 15px 0;
+}
+.content p {
+  color: #444444;
+  line-height: 25px;
+  font-family: var(--open);
+  font-weight: 400;
+  font-size: 14px;
+}
+.content div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+.content a {
+  background-color: #8484bf;
+  font-family: var(--ubuntu);
+  color: white;
+  font-weight: 400;
+  padding: 14px 20px;
+  font-size: 20px;
+  border-radius: 10px;
 }
