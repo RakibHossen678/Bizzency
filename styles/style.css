@@ -172,3 +172,54 @@ section {
   font-size: 20px;
   border-radius: 10px;
 }
+#about {
+  margin: 90px 0;
+}
+.row_data img {
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+.row_data span {
+  color: #0f2f44;
+  font-family: var(--ubuntu);
+  font-size: 14px;
+}
+.row_data h1 {
+  color: #0f2f44;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: var(--abril);
+  margin-bottom: 15px;
+}
+.row_data p {
+  font-family: var(--open);
+  font-size: 14px;
+  color: #0f2f44;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.row_data ul {
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.row_data ul li {
+  padding-bottom: 10px;
+  font-family: var(--open);
+  font-size: 14px;
+}
+.btn a{
+  background-color: #ffc712;
+  padding: 12px;
+  border-radius: 5px;
+  font-family: var(--ubuntu);
+  font-weight: 500;
+  color: #0f2f44;
+  line-height: 0;
+  margin-right: 10px;
+}
+.btn a:hover{
+  background: #ffffff;
+  box-shadow: 3px 3px 20px rgb(211, 202, 202);
+}
