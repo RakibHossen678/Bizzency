@@ -595,6 +595,7 @@ nav {
   background-color: #f5f5f5;
   padding: 50px 0;
   position: relative;
+  box-shadow: 3px 3px 20px rgb(223, 214, 214);
 }
 .Info p {
   font-family: var(--open);
@@ -673,4 +674,14 @@ nav {
   justify-content: center;
   background:#ffc712;
   color: white;
+}
+footer p{
+  font-family: var(--open);
+  font-size: 14px;
+  text-align: center;
+  padding: 18px 0;
+  
+}
+footer span{
+  color: #ffc712;
 }
