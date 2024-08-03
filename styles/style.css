@@ -452,7 +452,7 @@ nav {
   font-weight: 300;
   font-size: 14px;
 }
-.testimonial_left{
+.testimonial_left {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -464,7 +464,7 @@ nav {
   justify-content: center;
   left: -16px;
 }
-.testimonial_right{
+.testimonial_right {
   position: absolute;
   height: 40px;
   width: 40px;
@@ -476,9 +476,201 @@ nav {
   justify-content: center;
   right: -21px;
 }
-.testimonial_right:hover{
+.testimonial_right:hover {
   background-color: #ffc712;
 }
-.testimonial_left:hover{
+.testimonial_left:hover {
   background-color: #ffc712;
+}
+.blogs {
+  width: calc(33.33%-20px);
+  margin-left: 20px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 19px;
+  border-radius: 10px;
+  position: relative;
+}
+.blogs_image {
+  height: 280px;
+  width: 300px;
+}
+.blogs_content {
+  width: 300px;
+  margin: auto;
+}
+.blogs_content p {
+  padding: 20px 0 10px 0;
+  font-family: var(--ubuntu);
+  font-size: 14px;
+  color: #777777;
+}
+.blogs_content h3 {
+  font-family: var(--ubuntu);
+  font-size: 18px;
+  color: black;
+  padding-bottom: 15px;
+}
+.blogs_content a span {
+  font-family: var(--ubuntu);
+  font-size: 15px;
+  color: #777777;
+}
+.blogs_icon {
+  background: white;
+  height: 0px;
+  width: 0px;
+  font-size: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s;
+  transition-delay: 0.3s;
+}
+.blogs_left {
+  position: absolute;
+  box-shadow: 3px 3px 30px rgb(202, 199, 199);
+  top: 50%;
+  z-index: 10;
+  left: -16px;
+  transform: translateY(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+  transition-delay: 0.3s;
+}
+.blogs_right {
+  position: absolute;
+  box-shadow: 3px 3px 30px rgb(202, 199, 199);
+  top: 50%;
+  z-index: 10;
+  right: -19px;
+  transform: translateY(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+  transition-delay: 0.3s;
+}
+.blogs:hover .blogs_icon {
+  height: 40px;
+  width: 40px;
+  font-size: 17px;
+}
+.blogs_icon:hover {
+  background-color: #ffc712;
+}
+.blogs:hover .blogs_left {
+  visibility: visible;
+  opacity: 1;
+}
+.blogs:hover .blogs_right {
+  visibility: visible;
+  opacity: 1;
+}
+.blogs:hover {
+  background-color: #0f2f44;
+}
+.blogs:hover .blogs_content p {
+  color: white;
+}
+.blogs:hover .blogs_content h3 {
+  color: white;
+}
+.blogs:hover .blogs_content a span {
+  color: white;
+}
+#blogs {
+  margin: 100px 0;
+}
+.image img {
+  width: 75px;
+  height: 85px;
+  border-radius: 5px;
+}
+#Information {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+  position: relative;
+}
+.Info p {
+  font-family: var(--open);
+  font-size: 14px;
+  color: #777777;
+  padding: 15px 10px 15px 0;
+  margin-right: 20px;
+}
+.social {
+  display: flex;
+}
+.social span i {
+  color: #0f2f44;
+  font-size: 18px;
+  border: 2px solid #0f2f44;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 10px;
+}
+.social span i:hover {
+  background-color: #0f2f44;
+  color: white;
+}
+.contact h3 {
+  font-family: var(--ubuntu);
+  font-size: 20px;
+}
+.contact_content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.contact_icon {
+  font-size: 24px;
+  padding-right: 12px;
+  color: #777777;
+}
+.contact_content div span {
+  font-size: 14px;
+  font-family: var(--open);
+}
+.links h3 {
+  font-family: var(--ubuntu);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.links ul li {
+  margin-bottom: 10px;
+  font-family: var(--open);
+  font-size: 14px;
+}
+.links ul li ul li {
+  padding-left: 9px;
+  margin: 11px 0;
+}
+.gallery h3 {
+  font-family: var(--ubuntu);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.up_icon{
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#ffc712;
+  color: white;
 }
